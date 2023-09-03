@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rozina Wali - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        
+        <div class="profile_name">
+
+          Rozina wali
+          <div class="contact_info">
+            <img src="images/img5.png">
+            
+            rozinawalikhan@gmail.com
+        </div>
+        
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="images/img3.webp">
+
+                +923235080980                                           
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="images/img16.avif"/>
+      </div>
+      
+      <div>
+            <h1 class="profile_title">  Hi, I'm Rozina Wali! <img src="images/img6.png" width="50px"/>
+          </h1>
+
+          <p>
+            Certainly! I methodically create digital experiences as a committed web developer by fusing HTML, CSS, and JavaScript together. 
+            My knowledge includes using Java script, HTML, and CSS frameworks.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skills-container">
+
+        <div class="skill">
+          <img src="images/img2.png"/>
+          <h6>HTML</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/img1.png"/>
+          <h6>JavaScript</h6>
+          <p>1 years experience  </p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/img8.png"/>
+          <h6>CSS</h6>
+          <p>1 years experience  </p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/img9.png"/>
+          <h6>C++</h6>
+          <p>2 year experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/img10.png"/>
+          <h6> Logo Designer</h6>
+          <p>3 year Experience </p>
+        </div>  
+
+        
+        <div class="skill">
+          <img src="images/img11.png"/>
+          <h6> Teacher</h6>
+          <p>3 year Experience </p>
+        </div>  
+        
+        <!-- Add more skills here -->
+
+</div>
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Chess Game</h3>
+            <ul>
+              <li>I've created a C++ chess game that replicates the complex rules and tactics of the traditional board game and gives players a venue for turn-based, strategic encounters on the virtual board.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <ul>
+              <li> I've crafted a personalized portfolio website using Html,Css and Javascript showcasing my skills, projects, and achievements in an engaging digital platform that reflects my professional journey.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Barber Shop Website</h3>
+            <ul>
+              <li>I used Html,Css and JavaScript to build a dynamic barbershop website that lets customers book appointments, look through services, and learn about the newest men's grooming trends with ease.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+     
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+           Rozina stand out because of unique mindset.
+           she continuously contribute novel ideas and creative solutions, 
+           which have helped our initiatives advance in real ways.
+           Our development process has improved as a result of Rozina's
+           proactive attitude to investigating new technologies and processes.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Rozina has made a significant contribution to the team's growth as a mentor.
+          Colleagues have benefited from their tolerance and readiness to guide others 
+          in understanding complex concepts. Rozina's dedication to information sharing 
+          fosters the team's culture of ongoing learning.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Rozina's exceptional problem-solving skills are highly endorsed.
+          Their mastery spans diverse tech challenges, encompassing intricate
+          coding and software design. With relentless dedication and creativity,
+          Rozina greatly enhances any development endeavor.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+     <br> </br>
+    <!-- Recommendation Form -->
+    <section id="contact" class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>
+        <input type="text" placeholder="Name (Optional)"> <br/>
+        <textarea id="new_recommendation" cols="80" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="submit_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
+    </section>
+    
+    <div class="iconbutton" id="scrollToTopButton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="30px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+    
+    <div id="all_recommendations"></div>
+    
+    <div class="popup" id="popup" class="flex_center">
+      <div class="popup-container">
+        <img src="images/img19.png" style="display: block; margin: 0 auto; width: 50px; height: 50px;">
+        <h3 style="background-color: white; text-align: center; padding: 10px; color: black;">Thanks for leaving a new recommendation</h3>
+        <div style="text-align: center;">
+          <button onclick="showPopup(false)">Ok</button>
+        </div>
+      </div>
+    </div>
+   </body>
+</html> 
+  /* here css code is started ***********************************************************************************************/ 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px; /* Add margin to create a gap before the page content */
+    padding: 0; /* Reset padding to zero */
+  }
+  
+  /* Navigation Bar */
+  
+  #home {
+
+    background-color:  #0071bc;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 1.5cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+   
+   .contact_info img {
+    width: 20px; /* Set the desired width */
+    height: 20px; /* Set the desired height */
+    margin-right: 10px; /* Add some spacing between the image and phone number */
+  }
+  #about-me {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Distribute content evenly between the left and right edges */
+    padding: 20px; /* Add some spacing around the content */
+  }
+  
+  #about-me img {
+    max-width: 60%; /* Adjust the width of the image */
+    height: 20; /* Maintain the aspect ratio of the image */
+  }
+  
+  #about-me .text {
+    flex: 2; /* Allow the text to expand and fill available space */
+    text-align: right; /* Align the text to the right */
+    padding: 0 20px; /* Add some spacing around the text */
+  }
+  .topmenu {
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration:underline;
+  }
+  
+  .topmenu:hover {
+    color: black 
+    /* Add the styles here */
+  }
+  
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+  .profile_title {
+   color: #6f00ff;; /* Change text color to purple */
+    font-weight: bold; /* Make the text bold */
+    text-align: 60; /* Align the text to the right */
+    margin-top: 20px; /* Add margin to the top */
+  
+  }
+  
+  .profile_name {
+    float: left;
+    padding-left: 2cm;
+    font-weight: bold; /* Make the text bold */
+    height: 50px;
+    color: black;
+    /* Add the styles here */
+  }
+  
+  .profile_name .contact_info {
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .skill img {
+    width: 40px; /* Set the desired width for the skill images */
+    height: 25px; /* Set the desired height for the skill images */
+    margin-right: 8px; /* Add some spacing between the image and text */
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow skills to wrap to the next line if necessary */
+    gap: 90px; /* Add some spacing between skill boxes */
+  }
+  
+  .skill {
+    width: calc(22% - 70px); /* Adjust the width to fit four boxes in one line */
+    padding: 2px; /* Reduce the padding to make the boxes smaller */
+    border: 20px solid darkgray; /* Set a darker border color */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    text-align: center;
+  }
+
+.recommendation {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-right: 10px;
+    background-color: #f5f5f5;
+    width: calc(33.33% - 20px);
+    height: 200px; /* Set a fixed height for each recommendation box */
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+  }
+  .recommendation {
+    border: 1px solid #ccc; /* Add a border */
+    padding: 10px; /* Add some padding around the content */
+    margin-bottom: 10px; /* Add some spacing between each recommendation box */
+  }
+ 
+  #skills h2,
+#about-me h2,
+#projects h2,
+#recommendations h2 {
+  color: #6f00ff; /* Change this to the desired color */
+}
+ 
+/* Center content horizontally and vertically */
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+/* Adjust the appearance of the recommendation form */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  min-height: 200vh; /* Adjusted viewport height */
+}
+
+#contact fieldset {
+  border: none; /* Remove the border */
+  padding: 20px;
+  max-width: 450px;
+  width: 80%;
+  text-align: left;
+}
+
+#contact input[type="text"],
+#contact textarea {
+  width: 100%;
+  margin: 10px 0;
+  border: 3px solid #ccc; /* Add a border back to input and textarea */
+  padding: 8px;
+}
+
+#contact #submit_btn {
+  width: 25%;
+  margin: 10px auto; /* Center the button within the form */
+  background-color: white; /* Change the button background color */
+  color: purple; /* Change the text color to purple */
+  border: 2px solid purple; /* Set the border color and style */
+  padding: 8px 16px; /* Add padding to the button */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Adjust the appearance of the popup */
+.popup {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: purple;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the "Leave a Recommendation" message */
+.introduction {
+  font-weight: bold;
+  color: #7600bc; /* Change the color */
+  margin-bottom: 10px; /* Add margin to the bottom of the message */
+}
+
+/* Adjust the appearance of the popup */
+.popup {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: purple;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
+.popup-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popup-image {
+  width: 50px; /* Adjust the width as needed */
+  margin-left: 10px; /* Add space between the content and the image */
+  image_align:
+}
+/* Add this CSS code to your stylesheet */
+.iconbutton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #7600bc;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+.iconbutton a {
+  text-decoration: none;
+  color: white;
+}
+
+.iconbutton:hover {
+  background-color: #6f00ff;
+}
+
+ /* here javascript code is started ***********************************************************************************************/ 
+
+function addRecommendation() {
+  let recommendation = document.getElementById("new_recommendation");
+  if (recommendation.value != null && recommendation.value.trim() != "") {
+    // Create a new 'recommendation' element and set its value to the user's message
+    var element = document.createElement("div");
+    element.setAttribute("class", "recommendation");
+    element.innerHTML = "\<span\>&#8220;\</span\>" + recommendation.value + "\<span\>&#8221;\</span\>";
+    
+    // Append this element to the end of the list of recommendations
+    document.getElementById("all_recommendations").appendChild(element);
+
+    // Reset the value of the textarea
+    recommendation.value = "";
+
+    // Show the confirmation popup
+    showPopup(true);
+  }
+function showPopup(bool) {
+  var popup = document.getElementById("popup");
+  if (bool) {
+    popup.style.display = "block";
+  } else {
+    popup.style.display = "none";
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const scrollToTopButton = document.getElementById('scrollToTopButton');
+
+  scrollToTopButton.addEventListener('click', function (event) {
+    event.preventDefault(); // Prevent the default link behavior
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // Smooth scrolling animation
+    });
+  });
+});
+
+
